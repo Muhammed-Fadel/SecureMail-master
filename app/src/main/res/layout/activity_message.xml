@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mail.secure.securemail.message"
+    >
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="516dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:weightSum="1"
+        tools:ignore="MissingConstraints,RtlHardcoded"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Light_gray"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="0.11"
+            android:scrollbars="horizontal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Light_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subject"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:textSize="18sp"
+            android:scrollbars="horizontal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Light_gray"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/message"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/messageb"
+            android:layout_width="match_parent"
+            android:layout_height="321dp"
+            android:textSize="18sp"
+            android:scrollbars="vertical"
+            android:layout_weight="0.33" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

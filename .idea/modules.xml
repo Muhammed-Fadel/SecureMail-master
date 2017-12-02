@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\AboBader\Desktop\SecureMail-master\SecureMail.iml" filepath="C:\Users\AboBader\Desktop\SecureMail-master\SecureMail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecureMail-master.iml" filepath="$PROJECT_DIR$/SecureMail-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\abdulaziz\Desktop\SecureMail-master-\SecureMail\app\app.iml" filepath="C:\Users\abdulaziz\Desktop\SecureMail-master-\SecureMail\app\app.iml" />
+    </modules>
+  </component>
+</project>
